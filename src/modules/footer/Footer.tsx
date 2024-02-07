@@ -2,11 +2,8 @@
 
 import Logo from '@/shared/components/Logo/Logo';
 import Container from '@/shared/components/Container/Container';
-
 import { Contacts } from '.';
 import Copyright from '@/shared/components/Contacts/Copyright';
-// import RegIsSuccesful from '@/shared/components/Modal/RegIsSuccessful';
-// import EmailConfirmation from '@/shared/components/Modal/EmailConfirmation';
 
 export default function Footer() {
   return (
@@ -23,8 +20,6 @@ export default function Footer() {
         <div className="text-center pb-4 sm:text-sm sm:font-normal sm:leading-snug md:text-base md:leading-relaxed">
           <Copyright />
         </div>
-        {/* <RegIsSuccesful />
-        <EmailConfirmation /> */}
       </Container>
     </footer>
   );

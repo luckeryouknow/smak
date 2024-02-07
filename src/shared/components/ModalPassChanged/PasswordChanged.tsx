@@ -11,12 +11,12 @@ export default function PasswordChanged() {
   const closeModal = () => setModalOpen(false);
   return (
     <div>
-      <Modal isOpen={modalOpen} onClose={closeModal}>
+      <Modal isOpen={modalOpen} onClose={closeModal} buttonText="Підтвердити">
         <h2 className="text-center text-blue-700 text-2xl font-normal font-['Lato'] leading-[38.40px] pb-6">
           Ваш пароль змінено
         </h2>
         <div className="text-center pb-10">
-          <span className="text-nowrap">
+          <span className="text-nowrap text-gray-900 ">
             Використовуйте новий пароль для входу
           </span>
         </div>
